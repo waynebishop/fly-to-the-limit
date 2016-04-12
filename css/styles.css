@@ -1,0 +1,162 @@
+body {
+   /*  background-color: blue;*/
+   	font-family: Futura, Helvetica, Arial, sans-serif; /* most prefferred, second choice, generic fall back font style */
+	margin: 0; /*  to remove default margin to put main body hard up against edges */ 
+}
+
+#top-section-background {
+	background-color:#8ea4b9;
+}
+
+#top-section-container {
+	margin: 0 auto;
+	width: 1280px;
+	height: 400px;
+	background: url(../img/queenstown-sunset-topsection.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+nav ul li img {
+	margin-right: 950;
+}		
+
+nav ul {
+	padding-left: 0; /* to remove default ul left-side padding from nav ul */
+	/*background-color: blue;*/
+	width:1280px;
+	margin: 0 auto; /* 0 top and bottom and auto left and right */
+	padding-top: 10px;
+}
+
+nav ul li	{
+	list-style: none;
+	display: inline;
+	margin-left: 2px;
+	float: right;
+}
+
+.nav-button {
+	background-color: #89ecf9;
+	color: #333333;
+	padding: 5px;
+	border-radius: 5px;
+	border: 2px solid #444444;
+}
+
+nav a {
+	text-decoration: none;
+	font-style: italic;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+nav img {
+	margin-right: 950px;
+}
+
+/* pagejump  */
+
+#pagejump-background {
+	background-color:  #008c9e;/*#579aa3*/
+}
+
+
+#pagejump {
+	width:100%;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding-left: 0;
+}
+
+#pagejump ul {
+	list-style: none;
+	overflow: hidden;
+	padding-left: 0;
+	margin-top: 0;
+}
+
+#pagejump ul li {
+	float: left;
+	width: 16.6%;
+}
+
+#pagejump ul li a {
+	text-align: center;
+	font-size: 20px;
+	font-style: italic;
+	padding: 10px 0;
+	display: block;
+	width: 100%;
+	/*background-color: #008c9e;*/
+	color: #eeeeee;
+	border-radius: 5px;
+	border: 2px solid #eeeeee;
+	text-decoration: none;
+}
+
+#pagejump ul li a:hover {
+	color: #333333;
+	text-decoration: underline;
+}
+
+
+main {
+	width: 1280px;
+	height: 2000px;
+	background-color: #89ecf9;
+	margin: 0 auto;
+	padding-left: 16px;
+	padding-right: 16px;
+	box-sizing: border-box;
+}
+
+.package-trip {
+	float: left;
+	margin-right: 16px;
+	height: 500px;
+	width: 23.7%;
+}
+
+#packages {
+	height: 900px;
+	background-color: green;
+} 
+
+#charter-video {
+	height: 750px;
+	background-color: pink;
+}
+
+#charters {
+	float: left;
+	height: 700px;
+	width: 300px;
+	background-color: orange;
+}
+
+#video {
+	height: 700px;
+	background-color: red;
+	float: right;
+}
+
+#video iframe {
+	padding-right: 40px;
+	
+}
+
+#video:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+
+
+
+
