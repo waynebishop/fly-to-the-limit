@@ -1,7 +1,8 @@
 body {
    /*  background-color: blue;*/
    	font-family: Futura, Helvetica, Arial, sans-serif; /* most prefferred, second choice, generic fall back font style */
-	margin: 0; /*  to remove default margin to put main body hard up against edges */ 
+	margin: 0; /*  to remove default margin to put main body hard up against edges */
+	color: #333333; 
 }
 
 #top-section-background {
@@ -40,8 +41,8 @@ nav ul li	{
 .nav-button {
 	background-color: #89ecf9;
 	color: #333333;
-	padding: 5px;
-	border-radius: 5px;
+	padding: 8px;
+	border-radius: 50%;
 	border: 2px solid #444444;
 }
 
@@ -77,11 +78,13 @@ nav img {
 	overflow: hidden;
 	padding-left: 0;
 	margin-top: 0;
+	margin-bottom: 0;
 }
 
 #pagejump ul li {
 	float: left;
 	width: 16.6%;
+	min-width: 110px;
 }
 
 #pagejump ul li a {
@@ -111,36 +114,55 @@ main {
 	margin: 0 auto;
 	padding-left: 16px;
 	padding-right: 16px;
+	padding-top: 16px;
 	box-sizing: border-box;
+}
+
+
+/* #intro is for welcome statement on home page top of main */
+#intro {
+	margin-top: 0;
+}
+
+#packages {
+	/*background-color: green;*/
+	padding-left: 10px;
+	padding-bottom: 20px;
+} 
+
+#packages:after {
+	content: "";
+	display: block;
+	clear: both;
 }
 
 .package-trip {
 	float: left;
 	margin-right: 16px;
-	height: 500px;
 	width: 23.7%;
 }
 
-#packages {
-	height: 900px;
-	background-color: green;
-} 
+
 
 #charter-video {
-	height: 750px;
-	background-color: pink;
+	/*background-color: pink;*/
 }
+
+#charter-video:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
 
 #charters {
 	float: left;
-	height: 700px;
 	width: 300px;
-	background-color: orange;
+	/*background-color: orange;*/
 }
 
 #video {
-	height: 700px;
-	background-color: red;
+	/*background-color: red;*/
 	float: right;
 }
 
