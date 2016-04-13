@@ -5,8 +5,20 @@ body {
 	color: #333333; 
 }
 
+h1,
+h2 {
+	color: #eeeeee;
+	font-weight: 300;
+
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 300;
+}
+
 #top-section-background {
-	background-color:#8ea4b9;
+	background-color:#ffffff;
 }
 
 #top-section-container {
@@ -39,10 +51,10 @@ nav ul li	{
 }
 
 .nav-button {
-	background-color: #89ecf9;
+	background-color: #ffffff;
 	color: #333333;
 	padding: 8px;
-	border-radius: 50%;
+	border-radius: 5px;
 	border: 2px solid #444444;
 }
 
@@ -62,7 +74,7 @@ nav img {
 /* pagejump  */
 
 #pagejump-background {
-	background-color:  #008c9e;/*#579aa3*/
+	background-color: #125688; /* #008c9e */   /*#579aa3*/
 }
 
 
@@ -110,7 +122,7 @@ nav img {
 main {
 	width: 1280px;
 	height: 2000px;
-	background-color: #89ecf9;
+	background-color: #55acee; 
 	margin: 0 auto;
 	padding-left: 16px;
 	padding-right: 16px;
@@ -142,6 +154,20 @@ main {
 	width: 23.7%;
 }
 
+.package-trip a span {
+	text-align: center;
+	padding: 5px 5px;
+	background-color: #ffffff;
+	color: #333333;
+	border-radius: 3px;
+	border: 2px solid #eeeeee;
+}
+
+.package-trip a {
+	text-decoration: none;
+}
+
+
 
 
 #charter-video {
@@ -161,6 +187,20 @@ main {
 	/*background-color: orange;*/
 }
 
+#charters a span {
+	text-align: center;
+	padding: 5px 5px;
+	background-color: #ffffff;
+	color: #333333;
+	border-radius: 3px;
+	border: 2px solid #eeeeee;
+}
+
+#charters a {
+	text-decoration: none;
+}
+
+
 #video {
 	/*background-color: red;*/
 	float: right;
@@ -171,10 +211,18 @@ main {
 	
 }
 
+#video h1 {
+	 padding-left: 370px;
+}
+
 #video:after {
 	content: "";
 	display: block;
 	clear: both;
+}
+
+#video h2 {
+	padding-left: 200px;
 }
 
 
