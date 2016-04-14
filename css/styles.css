@@ -121,12 +121,10 @@ nav img {
 
 main {
 	width: 1280px;
-	height: 2000px;
+	/*height: 2000px;*/
 	background-color: #55acee; 
 	margin: 0 auto;
-	padding-left: 16px;
-	padding-right: 16px;
-	padding-top: 16px;
+	padding: 16px;
 	box-sizing: border-box;
 }
 
@@ -135,6 +133,8 @@ main {
 #intro {
 	margin-top: 0;
 }
+
+/* content sections */
 
 #packages {
 	/*background-color: green;*/
@@ -162,13 +162,6 @@ main {
 	border-radius: 3px;
 	border: 2px solid #eeeeee;
 }
-
-.package-trip a {
-	text-decoration: none;
-}
-
-
-
 
 #charter-video {
 	/*background-color: pink;*/
@@ -225,6 +218,48 @@ main {
 	padding-left: 200px;
 }
 
+
+#footer-background {
+	background-color: blue;
+	width: 100%;
+	/*height: 500px;*/
+}
+
+footer {
+	background-color: orange;
+	width: 1280px;
+	/*height: 600px;*/
+	margin: 0 auto;
+	padding: 0 16px 16px 16px;
+	box-sizing: border-box;
+}
+
+#location:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+
+footer h2 {
+	padding-left: 560px;
+	color: #333333;
+}
+
+.footer-location {
+	float: left;
+	width: 390px;
+	background-color: green;
+}
+
+.googlemap {
+	float: left;
+	width: 220px;
+	background-color: yellow;
+	padding-left: 14px;
+	padding-top: 70px;
+}
 
 
 
