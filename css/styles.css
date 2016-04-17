@@ -53,6 +53,17 @@ h2 {
 	color: #ffffff;
 }
 
+#top-section-container h1 {
+	position: absolute;
+	bottom: 20px;
+	left: 515px;
+	font-size: 30px;
+	color: #ffffff;
+	background-color: #55acee;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 5px;
+}
 
 #top-section-container img:hover {
 	opacity: 1;
@@ -163,14 +174,14 @@ main {
 
 /* content sections */
 
-#packages {
+.packages {
 	/*background-color: green;*/
 	padding-left: 10px;
 	padding-bottom: 20px;
 } 
 
 
-#packages:after {
+.packages:after {
 	content: "";
 	display: block;
 	clear: both;
@@ -184,10 +195,10 @@ main {
 }
 
 .package-trip h2 {  
-	width: 180px;
+	width: 190px;
 	position: absolute;
 	top: 207px;
-	left: 60px;
+	left: 55px;
 	text-align: center;
 	background-color: rgba(18, 86, 136, 0.7); /*#125688;*/
 	border-radius: 3px;
@@ -208,15 +219,19 @@ main {
 	transition: all 0.5s;
 }
 
+.packages a,
 .package-trip a {
 	text-decoration: none;
+}
+
+.packages a h1:hover {
+	color: #333333;
 }
 
 .package-trip img,
 #charters img {
 	border-radius: 5px;
 }
-
 
 .package-trip a span:hover	{
 	background-color: #125688;
@@ -426,7 +441,8 @@ nav a,
 #socialmedia i,
 #charters a h2:nth-child(1):hover,
 #charters a h2:nth-child(2):hover,
-#top-section-container img {
+#top-section-container img,
+.packages h1 {
 	transition: all 0.5s;
 }
 
