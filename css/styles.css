@@ -18,7 +18,7 @@ h2 {
 }
 
 #top-section-background {
-	background-color: #8aa1b5; /*#8ea4b9;*/
+	background-color: rgba(18, 86, 136, 0.6); /*#8aa1b5;*/ /*#8ea4b9;*/
 }
 
 #top-section-container {
@@ -28,8 +28,23 @@ h2 {
 	background: url(../img/queenstown-sunset-topsection.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	position: relative;
 
 }
+
+#top-section-container img {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	opacity: 0.8;
+	border-radius: 50%;
+	border: solid 2px #dddddd;
+}
+
+#top-section-container img:hover {
+	opacity: 1;
+}
+
 
 nav ul {
 	padding-left: 0; /* to remove default ul left-side padding from nav ul */
@@ -52,6 +67,7 @@ nav ul li	{
 	padding: 8px;
 	border-radius: 5px;
 	border: 2px solid #444444;
+	opacity: 0.8;
 }
 
 nav a {
@@ -93,7 +109,7 @@ nav img {
 #pagejump ul li {
 	float: left;
 	width: 16.6%;
-	min-width: 110px;
+	min-width: 150px;
 }
 
 #pagejump ul li a {
@@ -103,11 +119,11 @@ nav img {
 	padding: 10px 0;
 	display: block;
 	width: 100%;
-	/*background-color: #008c9e;*/
 	color: #eeeeee;
 	border-radius: 5px;
 	border: 2px solid #eeeeee;
 	text-decoration: none;
+	transition: all 0.5s;
 }
 
 #pagejump ul li a:hover {
@@ -151,12 +167,22 @@ main {
 	float: left;
 	margin-right: 16px;
 	width: 23.7%;
+	position: relative;
 }
 
 .package-trip h2 {  
-	position: relative;
-	bottom: 50px;
+	width: 180px;
+	position: absolute;
+	top: 207px;
+	left: 60px;
 	text-align: center;
+	background-color: rgba(18, 86, 136, 0.7); /*#125688;*/
+	border-radius: 3px;
+}
+
+.package-trip h2:hover {
+	background-color: #ffffff;
+	color: #333333;	
 }
 
 .package-trip a span {
@@ -166,11 +192,18 @@ main {
 	color: #333333;
 	border-radius: 3px;
 	border: 2px solid #eeeeee;
+	transition: all 0.5s;
 }
 
 .package-trip a {
 	text-decoration: none;
 }
+
+.package-trip img,
+#charters img {
+	border-radius: 5px;
+}
+
 
 .package-trip a span:hover	{
 	background-color: #125688;
@@ -189,6 +222,41 @@ main {
 	float: left;
 	width: 300px;
 	padding-left: 10px;
+}
+
+#charters {
+	position: relative;
+}
+
+#charters a h2:nth-child(1) {
+	width: 180px;
+	position: absolute;
+	top: 279px;
+	left: 60px;
+	text-align: center;
+	background-color: rgba(18, 86, 136, 0.7);
+	border-radius: 3px;
+}
+
+#charters a h2:nth-child(2) {
+	width: 180px;
+	position: absolute;
+	top: 533px;
+	left: 60px;
+	text-align: center;
+	background-color: rgba(18, 86, 136, 0.7);
+	border-radius: 3px;
+}
+
+#charters a h2:nth-child(1):hover,
+#charters a h2:nth-child(2):hover {
+	background-color: #ffffff;
+	color: #333333;	
+}
+
+#charters span {
+	text-align: center;
+	background-color: rgba(18, 86, 136, 0.7);
 }
 
 #charters a span {
@@ -211,11 +279,13 @@ main {
 
 #video {
 	float: right;
+	max-width: 900px;
 }
 
 #video iframe {
+	padding-top: 12px;
+	padding-bottom: 12px; 
 	padding-right: 35px;
-	
 }
 
 #video h1 {
@@ -232,9 +302,14 @@ main {
 	padding-left: 200px;
 }
 
+#video p {
+	padding-right: 40px;
+	font-size: 18px;
+	
+}
 
 #footer-background {
-	background-color: #8aa1b5;
+	background-color: rgba(18, 86, 136, 0.4);
 	width: 100%;
 }
 
@@ -250,8 +325,6 @@ footer {
 	display: block;
 	clear: both;
 }
-
-
 
 footer h2 {
 	padding-left: 560px;
@@ -274,7 +347,7 @@ footer h2 {
 	float: left;
 	width: 220px;
 	padding-left: 14px;
-	padding-top: 70px;
+	padding-top: 60px;
 }
 
 #footer-links {
@@ -297,7 +370,7 @@ footer h2 {
 	color: #ffffff;
 	border-radius: 3px;
 	border: 2px solid #eeeeee;
-	margin-right: 80px;
+	margin-right: 100px;
 }
 
 #footer-links a span:hover	{
@@ -322,12 +395,35 @@ footer h2 {
 }
 
 #socialmedia i:hover {
-	color: red;
+	color: #55acee; /*rgba(18, 86, 136, 0.7);*/
 }
 
 #footer-links:after {
 	content: "";
 	display: block;
 	clear: both;
+}
+
+/* hover transition settings */
+
+nav a,
+.package-trip h2,
+#charters a span,
+#footer-links a span,
+#socialmedia i,
+#charters a h2:nth-child(1):hover,
+#charters a h2:nth-child(2):hover,
+#top-section-container img {
+	transition: all 0.5s;
+}
+
+.package-trip img:hover,
+#charters img:hover {
+	opacity: 0.6;
+}
+
+.package-trip img,
+#charters img:hover {
+	transition: opacity 1s;
 }
 
