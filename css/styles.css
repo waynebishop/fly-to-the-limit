@@ -197,14 +197,14 @@ main {
 .package-trip h2 {  
 	width: 190px;
 	position: absolute;
-	top: 207px;
+	top: 205px;
 	left: 55px;
 	text-align: center;
 	background-color: rgba(18, 86, 136, 0.7); /*#125688;*/
 	border-radius: 3px;
 }
 
-.package-trip h2:hover {
+.package-trip  a h2:hover {
 	background-color: #ffffff;
 	color: #333333;	
 }
@@ -259,7 +259,7 @@ main {
 #charters a h2:nth-child(1) {
 	width: 180px;
 	position: absolute;
-	top: 279px;
+	top: 277px;
 	left: 60px;
 	text-align: center;
 	background-color: rgba(18, 86, 136, 0.7);
@@ -269,7 +269,7 @@ main {
 #charters a h2:nth-child(2) {
 	width: 180px;
 	position: absolute;
-	top: 533px;
+	top: 531px;
 	left: 60px;
 	text-align: center;
 	background-color: rgba(18, 86, 136, 0.7);
@@ -446,12 +446,12 @@ nav a,
 	transition: all 0.5s;
 }
 
-.package-trip img:hover,
-#charters img:hover {
+.package-trip a img:hover,
+#charters a img:hover {
 	opacity: 0.6;
 }
 
-.package-trip img,
+.package-trip img:hover,
 #charters img:hover {
 	transition: opacity 1s;
 }
