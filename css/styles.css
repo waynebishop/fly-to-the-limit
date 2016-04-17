@@ -41,6 +41,19 @@ h2 {
 	border: solid 2px #dddddd;
 }
 
+#top-section-container span {
+	position: absolute;
+	top: 50px;
+	left: 275px;
+	background-color: rgba(18, 86, 136, 0.7);
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+
 #top-section-container img:hover {
 	opacity: 1;
 }
