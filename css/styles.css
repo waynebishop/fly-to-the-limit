@@ -465,3 +465,27 @@ nav a,
 	transition: opacity 1s;
 }
 
+/* About */
+
+#about-intro img {
+	float: left;
+	padding-right: 20px;
+}
+
+/*#about-intro p {
+	padding-left: 20px;
+}*/
+#assets:after,
+#about-intro:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.pilots-planes {
+	width: 33.3%;
+	min-width: 400px;
+	float: left;
+}
+
+
