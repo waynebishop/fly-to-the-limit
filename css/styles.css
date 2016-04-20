@@ -361,7 +361,7 @@ footer {
 }
 
 footer h2 {
-	padding-left: 560px;
+	padding-left: 580px;
 	color: #333333;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -391,7 +391,7 @@ footer h2 {
 
 #footer-page-links {
 	float: left;
-	padding-left: 50px;
+	padding-left: 59px;
 }
 
 #footer-links a {
@@ -503,6 +503,7 @@ nav a,
 .contact-location {
 	width: 32.7%;
 	float:left;
+	text-align: center;
 }
 
 .contact-googlemap {
@@ -512,6 +513,7 @@ nav a,
 
 .contact-googlemap img {
 	margin-right: 10px;
+	margin-top: 40px;
 
 }
 
