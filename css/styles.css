@@ -520,69 +520,29 @@ nav a,
 /* Forms */
 
 #customer-details {
-	width: 50%;
-	background-color: orange;
-	float: left;
+	width: 70%;
 	line-height: 25px;
 	position: relative;
+	margin: 0 auto;
 
 }
 
-/*#customer-details input {
+#customer-details label {
+	display: inline-block;
+	width: 250px;
+}
+
+#customer-details input {
 	width: 200px;
-
-}*/
-
-#customer-details #full-name {
-	position:	absolute;
-	top: 3px;
-	left: 200px; 
 }
 
-#customer-details #email {
-	position:	absolute;
-	top: 28px;
-	left: 200px; 
-}
-
-#customer-details #phone {
-	position:	absolute;
-	top: 53px;
-	left: 200px; 
-}
-
-#full-name-message {
-	position:	absolute;
-	top: 1px;
-	left: 350px;
-	font-size: small;
-	color: red;
-}
-
-#email-message {
-	position:	absolute;
-	top: 25px;
-	left: 350px;
-	font-size: small;
-	color: red;
-}
-
+#full-name-message,
+#email-message,
 #phone-message {
-	position:	absolute;
-	top: 50px;
-	left: 350px;
 	font-size: small;
 	color: red;
 }
 
-
-#trip {
-	float: left;
-	background-color: yellow;
-	width: 50%;
-	position: relative;
-	padding-bottom: 50px;
-}
 
 #comments-box	{
 	width: 600px;

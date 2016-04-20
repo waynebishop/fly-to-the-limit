@@ -91,31 +91,33 @@
 
 					<p>To make an enquiry about <b>charter flights </b>including but not limited to photography assignments, provision drops, drop-off &amp pick-up's and other non-packaged trips and services please complete and submit the form below. We will respond to you within 24 hours.</p>
 					<div id="enq-details">	
-						<form action="something.php" method="post" id="enquiry"></form>	
+						<form action="something.php" method="post" id="enquiry">	
 						
 							<div id="customer-details">
 								<div>
-									<label for="full-name">Full name</label>
+									<h2>Contact Details</h2>
+									<label for="full-name">Full name*</label>
 									<input type="text" id="full-name" required placeholder="John Citizen">
 									<span id="full-name-message"></span>
 								</div>
 
 								<div>
-									<label for="email">E-mail</label>
+									<label for="email">E-mail*</label>
 									<input type="email" id="email" required placeholder="john@ispco.co.nz">
 									<span id="email-message"></span>
 								</div>
 
 								<div>
-									<label for="phone">Phone / Mobile number</label>
+									<label for="phone">Phone / Mobile number*</label>
 									<input type="text" id="phone" required placeholder="09 123 4567">
 									<span id="phone-message"></span>
 								</div>
-							</div>
+							
 
-							<div id="trip">
+
+								<h2>Proposed Flight Details (Subject to confirmation)</h2>
 								<div>
-									<label for="dep-date">Preferred Departure Date</label>
+									<label for="dep-date">Preferred Departure Date*</label>
 									<input type="date" id="dep-date" required>
 									<span id="dep-date-message"></span>
 								</div>		
@@ -123,32 +125,40 @@
 								
 								<div>
 									<label for="dep-time">Preferred Departure Time</label>
-									<input type="time" id="dep-time">
+									<select>
+										<option value="">Please select if known...</option>
+										<option>Morning (AM)</option>
+										<option>Afrernoon (PM)</option>
+									</select>
 									<span id="dep-time-message"></span>
 								</div>
 									
 								<div>
-									<label for="pick-date">Preferred Pick-up Date</label>
+									<label for="pick-date">Preferred Pick-up Date*</label>
 									<input type="date" id="pick-date" required>
 									<span id="pick-date-message"></span>
 								</div>	
 
 								<div>
 									<label for="pick-time">Preferred Pick-up Time</label>
-									<input type="time" id="pick-time">
+									<select>
+										<option value="">Please select if known...</option>
+										<option>Morning (AM)</option>
+										<option>Afrernoon (PM)</option>
+									</select>
 									<span id="pick-time-message"></span>
 								</div>
 
 								<div>
-									<label for="passengers">Number of passengers</label>
-									<input type="number" id="passengers">
+									<label for="passengers">Number of passengers*</label>
+									<input type="number" id="passengers" required>
 									<span id="passengers-message"></span>
 								</div>
 
 								<div>
 									<label for="purpose">Purpose of flight</label>
-									<select>
-										<option value="">Please select...</option>
+									<select required>
+										<option value="photo">Other - refer comments below</option>
 										<option value="photo">Photography</option>
 										<option value="drop-pick">Drop-off &amp Pick-up</option>
 										<option value="photo">Delivery of provisions</option>
@@ -156,11 +166,13 @@
 										<option value="photo">Heli-hunt</option>
 										<option value="photo">Heli-fish</option>
 										<option value="photo">Amphibian plane for lake landing</option>
-										<option value="photo">Other</option>
 									</select>
 								</div>
 
+								<p>*Indicates required field.</p>
 							</div>
+
+							<!-- </div> -->
 							
 							<!-- Question box -->	
 							<div id="comments-box">

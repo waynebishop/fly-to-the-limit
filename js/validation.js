@@ -9,7 +9,7 @@ var enquiryForm = document.querySelector('#enquiry');
 	var phoneInput = document.querySelector("#phone");
 	var phoneMessage = document.querySelector("#phone-message");
 
-	var messageInput = document.querySelector('#message');
+	var messageInput = document.querySelector('#comments');
 	var messageMessage = document.querySelector('#message-message')
 
 // Listen for the blur event on full-name inout field
