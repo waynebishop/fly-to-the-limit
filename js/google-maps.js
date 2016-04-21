@@ -1,4 +1,4 @@
-var tePapaMap;
+var queenstownMap;
 
 function initMap() {
 	console.log('test');
@@ -16,15 +16,15 @@ function initMap() {
 	};
 
 	// Create the map
-	tePapaMap = new google.maps.Map(mapContainer, mapOptions);
+	queenstownMap = new google.maps.Map(mapContainer, mapOptions);
 
 	// Prepare some markers
-	var tePapaMarker = new google.maps.Marker({
+	var queenstown = new google.maps.Marker({
 	    position: {
 			lat: -45.0244763,
 			lng: 168.6568355
 		},
-	    map: tePapaMap
+	    map: queenstownMap
 	  });
 }
 
