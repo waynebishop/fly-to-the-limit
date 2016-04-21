@@ -521,7 +521,7 @@ nav a,
 
 #customer-details {
 	line-height: 25px;
-	margin-left: 400px;
+	/*margin-left: 400px;*/
 }
 
 #customer-details label {
@@ -543,23 +543,48 @@ nav a,
 
 #comments-box	{
 	width: 600px;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 }
 
-#enquiry-button {
+/* For Contact Enquiries*/
+
+#enquiry-button,
+#submit-button {
 	text-align: center;
 	padding: 5px 15px;
 	background-color: #125688;
 	color: #ffffff;
 	border-radius: 10px;
 	border: 2px solid #eeeeee;
-	margin-left: 530px;
+	margin-left: 220px;
 	font-size: large;
 }
 
- 
 #enq-details:after {
 	content: "";
 	display: block;
 	clear: both;
 }
+
+/* Booking */
+
+#tc input {
+	width: 20px;
+}
+
+#tc label {
+	width: 500px;
+}
+
+#tc {
+	padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
