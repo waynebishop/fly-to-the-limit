@@ -580,11 +580,44 @@ nav a,
 	padding-top: 20px;
 }
 
+/* NEWS GALLERY PAGE */
 
+/* News*/
 
+#news {
+	background-color: orange;
+	width: 500px;
+	float: left;
+}
 
+#news-gallery:after {
+	content: "";
+	display: block;
+	clear: both;
+}
 
+#news article img {
+	margin-left: 50px;
+} 
 
+#new article {
+	height: 430px;
+}
 
+/* Gallery */
 
+#gallery-container {
+	width: 700px;
+	float: right;
+	/*height: 1000px;*/
+	background-color: pink;
+}
 
+#gallery-container h1,
+#news h1 {
+	font-size: 25px;
+}
+
+#news-gallery h2 {
+	color: #333333;
+}
