@@ -9,8 +9,8 @@ function initMap() {
 	// Set up some options for the map
 	var mapOptions = {
 		center: {
-			lat: -41.290475,
-			lng: 174.781783
+			lat: -45.0244763,
+			lng: 168.6568355
 		},
 		zoom: 15
 	};
@@ -21,11 +21,10 @@ function initMap() {
 	// Prepare some markers
 	var tePapaMarker = new google.maps.Marker({
 	    position: {
-			lat: -41.290475,
-			lng: 174.781783
+			lat: -45.0244763,
+			lng: 168.6568355
 		},
 	    map: tePapaMap
 	  });
 }
-
 
