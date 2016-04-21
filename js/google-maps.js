@@ -9,8 +9,8 @@ function initMap() {
 	// Set up some options for the map
 	var mapOptions = {
 		center: {
-			lat: -45.0244763,
-			lng: 168.6568355
+			lat: -45.023648,
+			lng: 168.7346375
 		},
 		zoom: 15
 	};
@@ -21,8 +21,8 @@ function initMap() {
 	// Prepare some markers
 	var queenstown = new google.maps.Marker({
 	    position: {
-			lat: -45.0244763,
-			lng: 168.6568355
+			lat: -45.023648,
+			lng: 168.7346375
 		},
 	    map: queenstownMap
 	  });
