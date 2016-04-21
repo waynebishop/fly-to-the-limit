@@ -588,6 +588,7 @@ nav a,
 	background-color: orange;
 	width: 500px;
 	float: left;
+/*	height: 1500px;*/
 }
 
 #news-gallery:after {
@@ -609,7 +610,7 @@ nav a,
 #gallery-container {
 	width: 700px;
 	float: right;
-	/*height: 1000px;*/
+/*	height: 1500px;*/
 	background-color: pink;
 }
 
@@ -621,3 +622,26 @@ nav a,
 #news-gallery h2 {
 	color: #333333;
 }
+
+#gallery-container,
+#news {
+	height: 1500px;
+	padding-top: 20px;
+	overflow: scroll;
+}
+
+/* For JS Slider*/
+
+#slider {
+	width: 600px;
+	height: 400px;
+	background-color: #333333;
+}
+
+
+
+
+
+
+
+
