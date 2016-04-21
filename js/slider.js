@@ -30,7 +30,7 @@ var prev = document.createElement('button');
 next.id = 'next';
 prev.id = 'prev';
 next.innerHTML = 'Next';
-prev.innerHTML = 'Previous';
+prev.innerHTML = 'Prev';
 
 // Add the buttons to the slider
 slider.appendChild(prev);
