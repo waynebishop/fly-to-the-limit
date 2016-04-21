@@ -674,6 +674,11 @@ nav a,
 	left: 300px;
 }
 
-
+#map {
+	height: 1000px;
+	width: 1280px;
+	margin: 0 auto;
+	background-color: red;
+}
 
 
