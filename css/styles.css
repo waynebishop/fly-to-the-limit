@@ -520,11 +520,8 @@ nav a,
 /* Forms */
 
 #customer-details {
-	width: 70%;
 	line-height: 25px;
-	position: relative;
-	margin: 0 auto;
-
+	margin-left: 400px;
 }
 
 #customer-details label {
