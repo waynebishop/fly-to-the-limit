@@ -391,7 +391,7 @@ footer h2 {
 
 #footer-page-links {
 	float: left;
-	padding-left: 59px;
+	padding-left: 50px;
 }
 
 #footer-links a {
@@ -406,7 +406,7 @@ footer h2 {
 	color: #ffffff;
 	border-radius: 3px;
 	border: 2px solid #eeeeee;
-	margin-right: 125px;
+	margin-right: 100px;
 }
 
 #footer-links a span:hover	{
