@@ -239,6 +239,11 @@ main {
 	color: #ffffff;
 }
 
+.trip-id {
+	color: #ffff66;	
+}
+
+
 #disclaimerstunt {
 	position: absolute;
 	bottom: -23px;
