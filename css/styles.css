@@ -224,7 +224,8 @@ main {
 	text-decoration: none;
 }
 
-.packages a h1:hover {
+.packages a h1:hover,
+#charters a h1:hover {
 	color: #333333;
 }
 
