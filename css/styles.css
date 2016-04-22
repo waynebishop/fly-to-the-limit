@@ -278,10 +278,10 @@ main {
 	border-radius: 3px;
 }
 
-#charters a h2:nth-child(2) {
+#charters a h2:nth-child(2) {  
 	width: 180px;
 	position: absolute;
-	top: 531px;
+	top: 530px;
 	left: 60px;
 	text-align: center;
 	background-color: rgba(18, 86, 136, 0.7);
