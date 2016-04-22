@@ -451,7 +451,8 @@ nav a,
 #charters a h2:nth-child(1):hover,
 #charters a h2:nth-child(2):hover,
 #top-section-container img,
-.packages h1 {
+.packages h1,
+#charters h1 {
 	transition: all 0.5s;
 }
 
