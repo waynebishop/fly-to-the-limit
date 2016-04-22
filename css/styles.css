@@ -478,7 +478,7 @@ nav a,
 	margin-right: 20px;*/
 }
 
-#assets:after,
+.assets:after,
 #about-intro:after,
 .contact-details:after {
 	content: "";
@@ -495,7 +495,7 @@ nav a,
 
 /*   ZERO RIGHT SIDE MARGIN FOR PILOT-PLANES DIVS */
 
-#assets .pilots-planes:nth-of-type(3) {
+.assets .pilots-planes:nth-of-type(3) {
 	margin-right: 0;
 } 
 
