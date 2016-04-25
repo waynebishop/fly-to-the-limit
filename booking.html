@@ -95,8 +95,8 @@
 
 							
 							<div>
-								<label>*Preferred Departure Time</label>
-								<select>
+								<label for="dep-time">*Preferred Departure Time</label>
+								<select id="dep-time">
 									<option value="">Please select if known...</option>
 									<option>Morning (AM)</option>
 									<option>Afternoon (PM)</option>
@@ -106,14 +106,14 @@
 								
 							<div>
 								<label for="passengers">*Number of passengers</label>
-								<input type="number" id="passengers" placeholder="2" required>
+								<input type="number" id="passengers" placeholder="2" >
 								<span id="passengers-message"></span>
 							</div>
 
 							<div>
-								<label>*Select Deluxe Package</label>
-								<select >
-									<option value="none">Please select one...</option>
+								<label for="package">*Select Deluxe Package</label>
+								<select id="package">
+									<option value="none">#Please select one...</option>
 									<optgroup label="Deluxe Scenic: Mount Cook Sunset">
 										<option value="QDS1">Ex-Queenstown CODE: QDS1 Mount Cook Sunset</option>
 										<option value="QDS2">Ex-Wanaka CODE: WDS2 Mount Cook Sunset</option>
@@ -187,8 +187,8 @@
 										<option value="QDD29">Ex-Queenstown CODE: QDA43 Aero Extreme</option>
 										<option value="QDD30">Ex-Wanaka CODE: WDA44 Aero Extreme</option>
 									</optgroup>	
-
 								</select>
+								<span id="package-message"></span>								
 							</div>
 							
 							<!--  T&C Agreement checkbox-->
@@ -213,7 +213,8 @@
 
 					</form>	
 				</div>	
-			</section>		
+			</section>
+			<span id="package-message"></span>		
 		</main>	
 
 		<!-- FOOTER -->	
